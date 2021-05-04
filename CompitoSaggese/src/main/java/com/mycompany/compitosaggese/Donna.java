@@ -3,6 +3,7 @@ package com.mycompany.compitosaggese;
 import java.util.logging.*;
 
 /**
+ * Questa classe rappresenta un thread che ha bisogno della risorsa BagnoDonne
  *
  * @author informatica
  */

@@ -1,6 +1,8 @@
 package com.mycompany.compitosaggese;
 
 /**
+ * Questa classe rappresenta la gestione degli ingressi nei bagni di un
+ * ristorante che vengono gestiti da un semaforo per ogni bagno
  *
  * @author informatica
  */

@@ -4,6 +4,8 @@ import static java.lang.Thread.*;
 import java.util.concurrent.*;
 
 /**
+ * Questa classe rappresenta una risorsa che deve essere assegnata ai thread
+ * donna
  *
  * @author informatica
  */
@@ -11,7 +13,8 @@ public class BagnoDonne {
 
     private final Semaphore s = new Semaphore(1);
 
-    public BagnoDonne() {}
+    public BagnoDonne() {
+    }
 
     public void utilizza(Donna d) throws InterruptedException {
         s.acquire();
